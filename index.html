@@ -4,13 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>GoIt</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
+    <!--Main-->
+    <div class="main">
+        <!--Main Content-->
+        <div class="main_content">
+            <!--about user-->
+            <div class="about">
+                <h2 class="about_position">Software Developer</h2>
+                <h1 class="about_name">Nelly Kemppi</h1>
+                <p class="about_description">
+                    Junior programmer. Undergraduate student of Metropolia, University of applied science.
+                </p>
+                
+            </div>
+            <!--Projects-->
+            <div class="projects">
+                <h3 class="title">Projects</h3>
+                <ol class="projects_list">
+                    <li class="project_item">
+                        <span class="project">
+                            <a href="https://hellen.p.goit.global/" class="project_link">https://hellen.p.goit.global/</a>
+                            ----------
+                            <span class="project_bracket"> [</span> HTML5, CSS3 <span class="project_bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="project_item">
+                        <span class="project">
+                            <a href="https://cryptohub.p.goit.global/" class="project_link">https://cryptohub.p.goit.global/</a>
+                            -----<span class="project_bracket"> [</span> JavaScript <span class="project_bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="project_item">
+                        <span class="project">
+                            <a href="https://kidslike.p.goit.global/" class="project_link">https://kidslike.p.goit.global/</a>
+                            ---------<span class="project_bracket"> [</span> React.js, Node.js <span class="project_bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <!--Work-->
+            <div class="work">
+                <h3 class="title">Work Experience</h3>
+                <!--company 1-->
+                <div>
+                    <h4 class="work_position">Front-End Developer <span class="organisation">Freelance</span> </h4>
+                    <p class="period">September 2019 - up to now   <span class="line">|</span>   Country</p>
+                    <ul class="work_list">
+                        <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                        <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="work_list_item">Risus commodo viverra maecenas. </li>
+                        <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li> 
+                    </ul>
+                </div>
+                <!--company 2-->
+                <div>
+                    <h4 class="work_position"> Manager <span class="organisation">Mono New</span> </h4>
+                    <p class="period">March 2015 - October 2018   <span class="line">|</span>   Country</p>
+                    <ul class="work_list">
+                        <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                        <li class="work_list_item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="work_list_item">Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+                <!--company 3-->
+                <div>
+                    <h4 class="work_position">Manager <span class="organisation">Mono LLC</span> </h4>
+                    <p class="period">June 2014 - February 2015   <span class="line">|</span>   Country</p>
+                    <ul class="work_list">
+                        <li class="work_list_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                        <li class="work_list_item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="work_list_item">Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Education-->
+            <div class="education">
+                <h3 class="title">Education</h3>
+                <h4 class="university">Metropolia University of applied science</h4>
+                <h4 class="spec">Smart Systems</h4>
+                <p class="period">September 2017 - till now   <span class="line">|</span>   Finland</p>
+            </div>
+        </div>
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <img src="img/photo_2022-11-12_17-11-10.jpg" alt="user photo" class="photo">
+            <!--contacts-->
+            <div class="contacts">
+                <h3 class="sidebar_title">Contacts</h3>
+                <div>
+                    <p>
+                        <span class="contact_type"> C:</span>
+                        <a href="tel:+358452334607" class="contact_link">+358452334607</a>
+                    </p>
+                    <p>
+                        <span class="contact_type"> E:</span>
+                        <a href="mailto:nelly.kemppi@gmail.com" class="contact_link">nelly.kemppi@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <!--TechSkills-->
+            <div class="tech_skills">
+                <h3 class="sidebar_title">Tech Skills</h3>
+                <ul class="tech_skills_list">
+                    <li class="tech_skills_item"> <span class="tech_skills_text">Python</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">C++</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">C</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">HTML</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">CSS</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">GIT</span></li>
+                    <li class="tech_skills_item"> <span class="tech_skills_text">Java</span></li>
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="soft_skills">
+                <h3 class="sidebar_title">Soft Skills</h3>
+                <ul class="soft_skills_list">
+                    <li class="soft_skills_item"><span class="soft_skills_text">Fast Learner</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_text">Time management</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_text">Adaptability</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_text">Teamwork</span></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>
